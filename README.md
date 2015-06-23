@@ -1,5 +1,5 @@
 # Bootstrap Delete Confirm
-Bootstrap delete confirmation modal
+Bootstrap v3 delete confirmation modal
 Description
 ===========
 This plugin stops an href from leaving the page and brings up a Bootstrap modal asking if you are sure you wish to perform the action. Clicking ok follows the link, clicking cancel doesn't. Simple!
