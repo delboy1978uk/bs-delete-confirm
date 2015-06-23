@@ -1,6 +1,6 @@
 (function($) {
         $.fn.extend({
-            sameHeight: function(options)
+            deleteConfirm: function(options)
             {
                 var defaults =
                 {
