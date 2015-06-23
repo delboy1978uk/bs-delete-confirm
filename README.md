@@ -1,4 +1,4 @@
-# bs-delete-confirm
+# Bootstrap Delete Confirm
 Bootstrap delete confirmation Modal
 Usage
 =====
