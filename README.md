@@ -16,6 +16,7 @@ Options
 {
   message: "Are you sure you wish to perform this action?",
   ok_text: "Proceed",
-  cancel_text: "Back"
+  cancel_text: "Back",
+  log: false
 }
 ```
