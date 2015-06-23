@@ -4,7 +4,8 @@
         {
             var defaults =
             {
-                message: 'Are you sure you wish to perform this action?',
+                heading: "Please confirm",
+                body: 'Are you sure you wish to perform this action?',
                 ok_text: 'Proceed',
                 cancel_text: 'Back',
                 log: false
@@ -14,7 +15,8 @@
 
             $('body').append('<div class="modal fade" id="bs-delete-confirm" tabindex="-1" role="dialog" aria-labelledby="bs-delete-confirm-label" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title" id="bs-delete-confirm-label">Please confirm</h4></div><div id="bs-delete-confirm-body" class="modal-body"></div><div class="modal-footer"><a id="bs-delete-confirm-cancel" class="btn btn-default" data-dismiss="modal" aria-hidden="true"></a><a id="bs-delete-confirm-ok" class="btn btn-primary"></a></div></div></div></div>');
 
-            $('#bs-delete-confirm-body').html(options.message);
+            $('#bs-delete-confirm-label').html(options.heading);
+            $('#bs-delete-confirm-body').html(options.body);
             $('#bs-delete-confirm-cancel').html(options.cancel_text);
             $('#bs-delete-confirm-ok').html(options.ok_text);
 
