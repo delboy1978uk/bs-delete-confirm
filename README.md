@@ -14,7 +14,8 @@ Options
 =======
 ```javascript
 {
-  message: "Are you sure you wish to perform this action?",
+  heading: "Please confirm",
+  body: "Are you sure you wish to perform this action?",
   ok_text: "Proceed",
   cancel_text: "Back",
   log: false
