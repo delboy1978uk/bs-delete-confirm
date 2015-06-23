@@ -12,25 +12,8 @@
 
                 options = $.extend(defaults,options);
 
-                $('body').append('
-                  <div class="modal fade" id="bs-delete-confirm" tabindex="-1" role="dialog" aria-labelledby="bs-delete-confirm-label" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="bs-delete-confirm-label">Please confirm</h4>
-                            </div>
-                            <div id="bs-delete-confirm-body" class="modal-body">
-                                BODY
-                            </div>
-                            <div class="modal-footer">
-                                <a id="bs-delete-confirm-cancel" class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</a>
-                                <a id="bs-delete-confirm-ok" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Proceed</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                ');
+                $('body').append('<div class="modal fade" id="bs-delete-confirm" tabindex="-1" role="dialog" aria-labelledby="bs-delete-confirm-label" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 class="modal-title" id="bs-delete-confirm-label">Please confirm</h4></div><div id="bs-delete-confirm-body" class="modal-body"></div><div class="modal-footer"><a id="bs-delete-confirm-cancel" class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</a><a id="bs-delete-confirm-ok" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Proceed</a></div></div></div></div>');
+
 
                 $('#bs-delete-confirm-body').html(defaults.message);
                 $('#bs-delete-confirm-cancel').html(defaults.cancel_text);
