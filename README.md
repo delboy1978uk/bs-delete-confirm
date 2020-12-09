@@ -20,6 +20,7 @@ $(document).ready(function(){
   body: "Are you sure you wish to perform this action?",
   ok_text: "Proceed",
   cancel_text: "Back",
+  class: "primary",
   log: false
 }
 ```
