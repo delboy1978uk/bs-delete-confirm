@@ -14,7 +14,7 @@
 
             options = $.extend(defaults,options);
 
-            $('body').append('<div tabindex="-1" class="modal fade" id="bs-delete-confirm" tabindex="-1" role="dialog" aria-labelledby="bs-delete-confirm-label" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="bs-delete-confirm-label">Please confirm</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div id="bs-delete-confirm-body" class="modal-body"></div><div class="modal-footer"><a id="bs-delete-confirm-cancel" class="btn btn-default" data-bs-dismiss="modal" aria-hidden="true"></a><a id="bs-delete-confirm-ok" class="btn btn-' + options.class + '"></a></div></div></div></div>');
+            $('body').append('<div tabindex="-1" class="modal fade" id="bs-delete-confirm" tabindex="-1" role="dialog" aria-labelledby="bs-delete-confirm-label" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="bs-delete-confirm-label">Please confirm</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"></button></div><div id="bs-delete-confirm-body" class="modal-body"></div><div class="modal-footer"><a id="bs-delete-confirm-cancel" class="btn btn-default" data-dismiss="modal" aria-hidden="true"></a><a id="bs-delete-confirm-ok" class="btn btn-' + options.class + '"></a></div></div></div></div>');
 
             $('#bs-delete-confirm-label').html(options.heading);
             $('#bs-delete-confirm-body').html(options.body);
